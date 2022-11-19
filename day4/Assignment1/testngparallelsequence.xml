@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Suite.Lead.Week4.Day4.Assignment">
+  <test thread-count="4" parallel="classes" name="TestNGSequenceTrial">
+    <classes>
+       <class name="week4.day4.Assignment1.CreateContact"/>
+      <class name="week4.day4.Assignment1.EditLead"/>
+      <class name="week4.day4.Assignment1.DuplicateLead"/>
+    </classes>
+  </test> <!-- TestNGSequenceTrial -->
+</suite> <!-- Suite.Lead.Week4.Day4.Assignment -->
